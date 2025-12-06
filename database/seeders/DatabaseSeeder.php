@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             ServiceCategorySeeder::class,
             ServiceSeeder::class,
             UmkmSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }
