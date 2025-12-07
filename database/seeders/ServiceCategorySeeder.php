@@ -16,11 +16,11 @@ class ServiceCategorySeeder extends Seeder
         DB::table('service_categories')->insert([
             [
                 'name' => 'Percetakan',
-                'icon' => 'icons/percetakan.png'
+                'icon' => 'percetakan_icon.png'
             ],
             [
                 'name' => 'Fotokopi',
-                'icon' => 'icons/fotokopi.png'
+                'icon' => 'fotokopi_icon.png'
             ]
         ]);
     }

@@ -13,7 +13,7 @@
             <!-- Animated heading -->
             <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fadeInDown">
                 Solusi Pencetakan
-                <span class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+                <span class="block mt-2 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
                     Digital Terdepan
                 </span>
             </h1>

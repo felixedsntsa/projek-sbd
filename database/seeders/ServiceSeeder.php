@@ -19,9 +19,9 @@ class ServiceSeeder extends Seeder
         DB::table('services')->insert([
             ['service_category_id' => $percetakanId, 'name' => 'Print Hitam Putih'],
             ['service_category_id' => $percetakanId, 'name' => 'Print Warna'],
-            ['service_category_id' => $percetakanId, 'name' => 'Scan Dokumen'],
-            ['service_category_id' => $percetakanId, 'name' => 'Jilid'],
             ['service_category_id' => $percetakanId, 'name' => 'Laminating'],
+            ['service_category_id' => $fotokopiId, 'name' => 'Scan Dokumen'],
+            ['service_category_id' => $fotokopiId, 'name' => 'Jilid'],
             ['service_category_id' => $fotokopiId, 'name' => 'Fotokopi'],
         ]);
     }
