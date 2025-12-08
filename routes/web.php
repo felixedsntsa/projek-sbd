@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DashboardController;
@@ -27,3 +28,11 @@ Route::get('/filter-umkm', [DashboardController::class, 'filterUmkm'])->name('fi
 
 // SEARCH
 Route::get('/search', [DashboardController::class, 'search'])->name('search');
+
+// REVIEW ROUTES (Protected by auth middleware)
+Route::middleware('auth')->group(function () {
+    Route::get('/umkm/{id}', [ReviewController::class, 'show'])->name('reviews.show');
+    Route::post('/reviews/{umkmId}', [ReviewController::class, 'store'])->name('reviews.store');
+    Route::put('/reviews/{id}', [ReviewController::class, 'update'])->name('reviews.update');
+    Route::delete('/reviews/{id}', [ReviewController::class, 'destroy'])->name('reviews.destroy');
+});

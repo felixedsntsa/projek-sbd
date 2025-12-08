@@ -371,8 +371,6 @@
                                 </div>
                             </div>
 
-                            
-
                             <!-- Info -->
                             <div class="space-y-2 text-sm text-gray-700">
                                 <div class="flex items-start gap-2">
@@ -413,12 +411,16 @@
 
                             <!-- Actions -->
                             <div class="mt-4 pt-3 border-t border-gray-200 flex gap-2">
+                                <a href="/umkm/${item.id}"
+                                    class="flex-1 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition text-sm font-medium text-center flex items-center justify-center">
+                                    Lihat Detail & Review
+                                </a>
                                 <button onclick="focusMarker(${item.id})"
-                                        class="flex-1 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition text-sm font-medium">
+                                    class="flex-1 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition text-sm font-medium">
                                     Buka di Google Maps
                                 </button>
                                 <button onclick="flyToMarker(${item.lat}, ${item.lng})"
-                                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300 transition text-sm font-medium">
+                                    class="bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300 transition text-sm font-medium">
                                     Lihat di Peta
                                 </button>
                             </div>
