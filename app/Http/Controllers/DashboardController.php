@@ -44,6 +44,15 @@ class DashboardController extends Controller
             )
             ->get();
 
+        // Ambil layanan untuk setiap UMKM
+        foreach ($umkm as $u) {
+            $u->services = DB::table('services')
+                ->join('umkm_services', 'services.id', '=', 'umkm_services.service_id')
+                ->where('umkm_services.umkm_id', $u->id)
+                ->select('services.name')
+                ->get();
+        }
+
         return view('dashboard.index', compact('umkm', 'categories'));
     }
 
@@ -119,6 +128,7 @@ class DashboardController extends Controller
             $p->services = DB::table('services')
                 ->join('umkm_services', 'services.id', '=', 'umkm_services.service_id')
                 ->where('umkm_services.umkm_id', $p->id)
+                ->select('services.name')
                 ->get();
         }
 
