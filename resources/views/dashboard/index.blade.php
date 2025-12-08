@@ -133,9 +133,12 @@
         if (km > 0) {
             radiusCircle = L.circle([lat, lng], {
                 radius: km * 1000,
-                color: "red",
-                fillColor: "#ffcccc",
-                fillOpacity: 0.3
+                color: "#10B981",      // Emerald green
+                fillColor: "#34D399",  // Emerald light
+                fillOpacity: 0.15,
+                weight: 2,             // Ketebalan garis
+                dashArray: "10, 10",   // Garis putus-putus
+                opacity: 0.8           // Opacity garis
             }).addTo(map);
         }
     }

@@ -32,6 +32,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.163628362096045,
                 'lng' => 113.7128824286846,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/atiga.jpg',
             ],
             [
                 'name' => 'Fotocopy Al Fattah',
@@ -41,6 +42,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.169791529749753,
                 'lng' => 113.71566093255609,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/alfatah.jpg',
             ],
             [
                 'name' => 'Fidh Photo Copy Digital',
@@ -50,6 +52,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.164299733116788,
                 'lng' => 113.71258016813536,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/fidh.jpg',
             ],
             [
                 'name' => 'Soerabaja45 Cabang Kampus',
@@ -59,6 +62,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.16443713061383,
                 'lng' => 113.71275585282284,
                 'categories' => ['Percetakan'],
+                'image' => '/image/umkm/soerabaja45.jpg',
             ],
             [
                 'name' => 'Fotocopy SEP Mastrip',
@@ -68,6 +72,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.15845477473874,
                 'lng' => 113.71490834034881,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/sepmastrip.jpg',
             ],
             [
                 'name' => 'ALFATIH PRINT',
@@ -77,6 +82,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.172315265723405,
                 'lng' => 113.72033330369511,
                 'categories' => ['Percetakan'],
+                'image' => '/image/umkm/alfatih.jpg',
             ],
             [
                 'name' => 'Canon Foto Copy',
@@ -86,6 +92,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.169507056505033,
                 'lng' => 113.71644059192398,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/canonfotocopy.png',
             ],
             [
                 'name' => 'Mentari Copy Center',
@@ -95,6 +102,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.158165939591052,
                 'lng' => 113.71495427616438,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/mentari.jpg',
             ],
             [
                 'name' => 'UD. Foto Copy Maharani',
@@ -104,6 +112,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.169011050683444,
                 'lng' => 113.711016352034,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/copymaharani.jpg',
             ],
             [
                 'name' => 'Ryo Digital Printing Jember',
@@ -113,6 +122,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.156804493264946,
                 'lng' => 113.71163789900895,
                 'categories' => ['Percetakan'],
+                'image' => '/image/umkm/ryo.jpg',
             ],
             [
                 'name' => 'Danissa Fotocopy Center',
@@ -122,6 +132,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.170593423494218,
                 'lng' => 113.70994346842912,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/danissa.png',
             ],
             [
                 'name' => 'Teco Digital Fotocopy',
@@ -131,6 +142,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.162128601471165,
                 'lng' => 113.72362630372541,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/teco.jpg',
             ],
             [
                 'name' => 'Amore 3 Copy Center',
@@ -140,6 +152,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.158426345593739,
                 'lng' => 113.7149765064931,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/amore.png',
             ],
             [
                 'name' => 'Bursa Mahasiswa',
@@ -149,6 +162,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.1665713913203,
                 'lng' => 113.7118163681271,
                 'categories' => ['Percetakan'],
+                'image' => '/image/umkm/bursamahasiswa.jpg',
             ],
             [
                 'name' => 'Purnama Fotocopy',
@@ -158,6 +172,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.167472796923741,
                 'lng' => 113.71727918941495,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/purnama.png',
             ],
             [
                 'name' => 'Shima Fotocopy',
@@ -167,6 +182,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.165628892720445,
                 'lng' => 113.72498363255497,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/shima.jpg',
             ],
             [
                 'name' => 'CM Copy Centre',
@@ -176,6 +192,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.168726300859788,
                 'lng' => 113.71081621533462,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/cmcopy.jpg',
             ],
             [
                 'name' => 'Wijaya Digital Printing',
@@ -185,6 +202,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.166508391630359,
                 'lng' => 113.70240501903821,
                 'categories' => ['Percetakan'],
+                'image' => '/image/umkm/wijaya.jpg',
             ],
             [
                 'name' => 'FOTOCOPY ESDE',
@@ -194,6 +212,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.169933,
                 'lng' => 113.715568,
                 'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/esde.jpg',
             ],
             [
                 'name' => 'Nyo Printing Jember',
@@ -203,6 +222,7 @@ class UmkmSeeder extends Seeder
                 'lat' => -8.179053754027427,
                 'lng' => 113.71623158417366,
                 'categories' => ['Percetakan'],
+                'image' => '/image/umkm/nyo.jpg',
             ],
             [
                 'name' => 'BSP PRINTING JEMBER',
@@ -211,7 +231,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '07:00 - 21:00',
                 'lat' => -8.186621446024446,
                 'lng' => 113.70254479163786,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/bsp.jpg',
             ],
             [
                 'name' => 'Metal Digital Printing Jember',
@@ -220,7 +241,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:00 - 21:00',
                 'lat' => -8.17245212334191,
                 'lng' => 113.69712143819095,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/metal.jpg',
             ],
             [
                 'name' => 'Makmur Printing',
@@ -229,7 +251,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:00 - 21:00',
                 'lat' => -8.143884007590398,
                 'lng' => 113.725662212771,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/makmur.jpg',
             ],
             [
                 'name' => 'GRAND88 Digital Printing',
@@ -238,7 +261,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:00 - 20:00',
                 'lat' => -8.17462000232211,
                 'lng' => 113.6928708852022,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/grand88.jpg',
             ],
             [
                 'name' => 'Araya Printing',
@@ -247,7 +271,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:00 - 21:00',
                 'lat' => -8.174424068894949,
                 'lng' => 113.6985040836544,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/araya.jpg',
             ],
             [
                 'name' => 'HIjau Printing',
@@ -256,7 +281,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '06:00 - 21:00',
                 'lat' => -8.175639504062188,
                 'lng' => 113.68566512912095,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/hijau.jpg',
             ],
             [
                 'name' => 'Chall stiker',
@@ -265,7 +291,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:30 - 23:00',
                 'lat' => -8.181234923577428,
                 'lng' => 113.67288847552024,
-                'categories' => ['Fotokopi']
+                'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/chall.jpg',
             ],
             [
                 'name' => 'Nanda Printing',
@@ -274,7 +301,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:00 - 17:00',
                 'lat' => -8.19727226557638,
                 'lng' => 113.69639854112157,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/nanda.jpg',
             ],
             [
                 'name' => 'FASHCOM Print',
@@ -283,7 +311,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '08:00 - 21:00',
                 'lat' => -8.198801430251892,
                 'lng' => 113.6988876309898,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/fashcom.jpg',
             ],
             [
                 'name' => 'SB Digital Printing',
@@ -292,7 +321,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '05:30 - 22:00',
                 'lat' => -8.199650963641979,
                 'lng' => 113.70575408579869,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/sb.jpg',
             ],
             [
                 'name' => 'Atika Print',
@@ -301,7 +331,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '07:30 - 17:00',
                 'lat' => -8.191420209331225,
                 'lng' => 113.70963402705138,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/atika.jpg',
             ],
             [
                 'name' => 'EZ FOTO COPY',
@@ -310,7 +341,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '05:00 - 23:00',
                 'lat' => -8.186960046455209,
                 'lng' => 113.6491062133285,
-                'categories' => ['Fotokopi']
+                'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/ez.jpg',
             ],
             [
                 'name' => 'MZ. BOB DIGITAL PRINTING',
@@ -319,7 +351,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '04:00 - 23:30',
                 'lat' => -8.193629033323903,
                 'lng' => 113.65434188537775,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/mzbob.jpg',
             ],
             [
                 'name' => 'Fotokopi Al-Raza',
@@ -328,7 +361,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '06:30 - 21:00',
                 'lat' => -8.170563208993423,
                 'lng' => 113.68880867882683,
-                'categories' => ['Fotokopi']
+                'categories' => ['Fotokopi'],
+                'image' => '/image/umkm/alraza.jpg',
             ],
             [
                 'name' => 'Akeno Digital Printing',
@@ -337,7 +371,8 @@ class UmkmSeeder extends Seeder
                 'opening_hours' => '07:00 - 19:00',
                 'lat' => -8.17986616055036,
                 'lng' => 113.67610573732942,
-                'categories' => ['Percetakan']
+                'categories' => ['Percetakan'],
+                'image' => '/image/umkm/akeno.jpg',
             ],
         ];
 
@@ -347,8 +382,8 @@ class UmkmSeeder extends Seeder
             $umkmId = DB::table('umkms')->insertGetId([
                 'name'           => $item['name'],
                 'address'        => $item['address'],
-                'phone'         => $item['phone'] ?? null,  // aman kalau tidak ada
-                'image'          => null,
+                'phone'         => $item['phone'] ?? null,
+                'image'          => $item['image'] ?? null,
                 'opening_hours'  => $item['opening_hours'],
                 'geom'           => DB::raw("ST_SetSRID(ST_Point({$item['lng']}, {$item['lat']}), 4326)"),
             ]);
