@@ -4,16 +4,9 @@
 
 <div class="container mx-auto p-4">
 
-    {{-- ============================
-        FILTER PANEL
-    ============================ --}}
     <div class="bg-white shadow-md p-4 rounded-lg mb-4">
-
         <h2 class="text-xl font-semibold mb-3">Pengaturan Lokasi & Filter</h2>
-
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-
-            {{-- Kategori --}}
             <div>
                 <label class="font-semibold">Kategori</label>
                 <select id="filterCategory" class="w-full border px-3 py-2 rounded">
@@ -24,7 +17,6 @@
                 </select>
             </div>
 
-            {{-- Latitude --}}
             <div>
                 <label class="font-semibold">Latitude Lokasi Anda</label>
                 <input type="text" id="latInput"
@@ -33,7 +25,6 @@
                        placeholder="Isi latitude Anda">
             </div>
 
-            {{-- Longitude --}}
             <div>
                 <label class="font-semibold">Longitude Lokasi Anda</label>
                 <input type="text" id="lngInput"
@@ -41,12 +32,9 @@
                        class="w-full border px-3 py-2 rounded"
                        placeholder="Isi longitude Anda">
             </div>
-
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-
-            {{-- Radius --}}
             <div>
                 <label class="font-semibold">Radius (km)</label>
                 <select id="filterRadius" class="w-full border px-3 py-2 rounded">
@@ -56,7 +44,6 @@
                     <option value="3">3 km</option>
                 </select>
             </div>
-
         </div>
 
         <div class="flex gap-3 mt-4">
@@ -67,35 +54,23 @@
 
             <button onclick="setLocationFromInput()"
                     class="bg-green-600 text-white px-4 py-2 rounded">
-                Gunakan Input Manual
+                Input Manual dan Apply Filter
             </button>
         </div>
-
     </div>
 
-
-    {{-- ============================
-        MAP
-    ============================ --}}
     <div id="map" class="w-full h-[500px] rounded-lg shadow-lg"></div>
 
     <div class="mt-4">
         <h2 class="text-xl font-bold mb-3">Daftar UMKM Terdekat</h2>
-
-        <div id="umkmList" class="space-y-3 max-h-80 overflow-y-auto pr-2">
-            <!-- Card UMKM akan masuk otomatis lewat JavaScript -->
-        </div>
+        <div id="umkmList" class="space-y-3 max-h-80 overflow-y-auto pr-2"></div>
     </div>
 
 </div>
 
-<!-- Leaflet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-{{-- ============================
-    JAVASCRIPT MAP
-============================ --}}
 <script>
     let map = L.map('map').setView([-8.164987, 113.713421], 15);
 
@@ -167,10 +142,6 @@
         map.setView([lat, lng], 17);
     }
 
-
-    // ============================
-    //  MARKERS UMKM
-    // ============================
     let markers = [];
     const umkmData = @json($umkm);
 
@@ -209,10 +180,6 @@
         marker.addTo(map);
     });
 
-
-    // ============================
-    //  PERHITUNGAN JARAK
-    // ============================
     function getDistance(lat1, lng1, lat2, lng2) {
         const R = 6371;
         let dLat = (lat2 - lat1) * Math.PI / 180;
@@ -227,10 +194,6 @@
         return R * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
     }
 
-
-    // ============================
-    //  FILTER KATEGORI & RADIUS
-    // ============================
     function applyFilters() {
         let selectedCategory = document.getElementById("filterCategory").value;
         let selectedRadius = parseFloat(document.getElementById("filterRadius").value);
@@ -328,10 +291,6 @@
             .join("");
     }
 
-
-    // ============================
-    //  FOCUS BUTTONS
-    // ============================
     function focusUserLocation() {
         if (!userMarker) return alert("Lokasi belum tersedia");
         map.setView(userMarker.getLatLng(), 18);
