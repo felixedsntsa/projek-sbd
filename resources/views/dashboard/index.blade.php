@@ -215,7 +215,7 @@
 
         marker.bindPopup(`
             <div class="font-semibold text-lg mb-2">${item.name}</div>
-            <img src="/image/umkm/${item.image ?? 'no_image.jpg'}"
+            <img src="${item.image ?? 'no_image.jpg'}"
                 class="w-full h-28 object-cover rounded mb-2">
             <div><strong>Kategori:</strong> ${item.category_name ?? '-'}</div>
             <div><strong>Alamat:</strong> ${item.address ?? '-'}</div>
@@ -371,12 +371,7 @@
                                 </div>
                             </div>
 
-                            <!-- Image -->
-                            ${item.image ? `
-                                <img src="/image/umkm/${item.image}"
-                                     class="w-full h-40 object-cover rounded-lg mb-3"
-                                     alt="${item.name}">
-                            ` : ''}
+                            
 
                             <!-- Info -->
                             <div class="space-y-2 text-sm text-gray-700">
