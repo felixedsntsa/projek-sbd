@@ -60,14 +60,14 @@ class ReviewController extends Controller
                 'users.name as user_name'
             )
             ->orderBy('reviews.created_at', 'DESC')
-            ->get();
+            ->paginate(5);
 
         // Hitung rata-rata rating
         $avgRating = DB::table('reviews')
             ->where('umkm_id', $id)
             ->avg('rating');
 
-        $totalReviews = $reviews->count();
+        $totalReviews = $reviews->total();
 
         // Cek apakah user sudah pernah review
         $userReview = DB::table('reviews')
